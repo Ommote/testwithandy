@@ -36,11 +36,13 @@ public class Main {
 
         // 3. Test it out!
 
-        System.out.println(olivia);
-        System.out.println(geoff);
+        System.out.println(olivia.getAverageMark());
+        System.out.println(geoff.getAddress());
         System.out.println(profTrevelyan.getAddress());
 
-
+        Person guy = new Person("guy", "07375755355", "guy@gmail.com");
+        System.out.println(guy.getName());
+        guy.getName();
 
         // 4. Rules: You can't look at any previous projects to help. Don't use intellij "generate" for constructors or getters and setters
 

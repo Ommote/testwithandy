@@ -10,4 +10,16 @@ public class Person {
         this.phoneNumber = phoneNumber;
         this.emailAddress = emailAddress;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
 }

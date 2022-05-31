@@ -11,7 +11,17 @@ public class Student extends Person {
         this.studentNumber = studentNumber;
         this.averageMark = averageMark;
         this.address = address;
+    }
 
+    public int getStudentNumber() {
+        return studentNumber;
+    }
 
+    public double getAverageMark() {
+        return averageMark;
+    }
+
+    public Address getAddress() {
+        return address;
     }
 }
